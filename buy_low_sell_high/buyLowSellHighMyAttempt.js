@@ -22,8 +22,8 @@ it at the highest. Must buy before you sell—no shorting.*/
 // BEST SOLUTION
 console.log(`The highest: ${Math.max.apply(null, shareArray)}`);
 
-//The apply() method calls a function with a given this value and arguments provided as an array (or an array-like object).
-// Note that the first argument to apply() sets the value of ‘this’, not used in this method, so you pass null.
+//The apply() method calls a function with a given 'this' value and arguments provided as an array (or an array-like object).
+// Note that the first argument to apply() sets the value of ‘this’, which is not used in this method, so you pass null.
 
 // Solution #2 from Medium link ^
 

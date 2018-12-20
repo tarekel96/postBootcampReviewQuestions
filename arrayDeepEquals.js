@@ -5,9 +5,9 @@ var first = [1, 2, 3];
 var second = [1, 2, 3];
 
 // Problem 1
-console.log(first == second);
+console.log(first == second); // returns false
 // Problem 2
-console.log(first === second);
+console.log(first === second); // returns false
 
 // My theory
 
@@ -43,4 +43,10 @@ function deepEquals(array1, array2) {
 
     return equals;
   }
+}
+
+// test with Bootcamp sol
+// deepEquals(first, second);
+for (let i = 0; i <= first.length; i++) {
+  console.log(deepEquals(first[i], second[i])); // returns true so I believe my theory above is correct
 }
