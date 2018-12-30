@@ -58,4 +58,5 @@ let convertIntToString = function(number) {
   }
 };
 
-convertIntToString(integerFive);
+// convertIntToString(integerFive);
+convertIntToString(26);
