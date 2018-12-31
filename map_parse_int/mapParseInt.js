@@ -51,7 +51,7 @@ let newArray = numbers.map(function(array) {
 console.log(`The converted array: ${newArray}`);
 // }; */
 
-function convertArray() {
+/* function convertArray() {
   console.log(`The given array: ${givenArray}`);
   givenArray.map(function() {
     for (let i = 0; i < givenArray.length; i++) {
@@ -67,5 +67,42 @@ function convertArray() {
   });
   //   console.log(`The converted array: ${newArray}`);
 }
-convertArray();
+convertArray(); */
 // console.log("Hello World");
+
+/* let convertArrayToInt = function(array) {
+  let stringVersion = array[0];
+  let intArray = [];
+  for (let i = 0; i < array.length; i++) {
+    let iterating = array[i];
+    if (stringVersion == iterating) {
+      stringVersion = parseInt(iterating);
+      intArray.push(stringVersion);
+    }
+  }
+  console.log(`integer array: ${intArray}`);
+  console.log(typeof intArray[0]);
+  // return intArray;
+};
+
+convertArrayToInt(givenArray); */
+
+// let five = "5";
+// parseInt(five, 5);
+// console.log(typeof five);
+// console.log(typeof parseInt("6"));
+
+let arrayOfStringNumbers = ["1", "2", "3"];
+
+let stringToNumbers = function(array) {
+  let originalArray = array;
+  let theNewArray = [];
+  for (let i = 0; i < array.length; i++) {
+    theNewArray.push(parseInt(originalArray[i]));
+    // console.log(`The New Array: ${theNewArray}`);
+  }
+  console.log(theNewArray);
+  console.log(typeof theNewArray[0]);
+};
+
+stringToNumbers(arrayOfStringNumbers);
