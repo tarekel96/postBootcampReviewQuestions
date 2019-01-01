@@ -30,7 +30,9 @@ let reverse = function(word) {
     let reverseLetters = "";
     //     console.log(reverseLetters);
     newArray.push(reverseLetters.concat(word[i]));
-    console.log(newArray[0]);
+    let wordVersion = newArray.join();
+    console.log(wordVersion);
+    // console.log(typeof wordVersion);
   }
 };
 
